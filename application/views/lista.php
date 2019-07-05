@@ -13,7 +13,7 @@ require_once'include/functions.php';
 
     <!-- Bootstrap -->
     <link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
-    <link href="style.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,7 +27,7 @@ require_once'include/functions.php';
     <!-- menu -->
     <div id="menu" class="col-md-12 text-right">
       <div class="container">
-          <a class="btn btn-primary" href="lista.php"><i class="fa fa-calendar" aria-hidden="true"></i> Lista de Horários</a>
+          <a class="btn btn-primary" href="<?php echo base_url('Horario/listar'); ?>"><i class="fa fa-calendar" aria-hidden="true"></i> Lista de Horários</a>
           <a class="btn btn-warning" href="index.php"><i class="fa fa-calendar-check-o"></i> Novo Horário</a>
       </div>
     </div>

@@ -23,7 +23,7 @@
     <!-- menu -->
     <div id="menu" class="col-md-12 text-right">
       <div class="container">
-          <a class="btn btn-primary" href="<?php echo base_url('lista'); ?>"><i class="fa fa-calendar" aria-hidden="true"></i> Lista de Horarios</a>
+          <a class="btn btn-primary" href="<?php echo base_url('Horario/listar'); ?>"><i class="fa fa-calendar" aria-hidden="true"></i> Lista de Horários</a>
           <button class="btn btn-warning" data-toggle="modal" data-target="#myModal"><i class="fa fa-calendar-check-o"></i> Novo Horário</button>
       </div>
     </div>
