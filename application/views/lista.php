@@ -28,7 +28,7 @@ require_once'include/functions.php';
     <div id="menu" class="col-md-12 text-right">
       <div class="container">
           <a class="btn btn-primary" href="<?php echo base_url('Horario/listar'); ?>"><i class="fa fa-calendar" aria-hidden="true"></i> Lista de Horários</a>
-          <a class="btn btn-warning" href="index.php"><i class="fa fa-calendar-check-o"></i> Novo Horário</a>
+          <a class="btn btn-warning" href="<?php echo base_url('Horario/index'); ?>"><i class="fa fa-calendar-check-o"></i> Novo Horário</a>
       </div>
     </div>
     <!-- menu -->
