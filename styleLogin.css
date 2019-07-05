@@ -1,0 +1,24 @@
+.form-group{
+	width: 300px;
+	height: 150px;
+	text-align: center;
+	margin:150px auto 0px auto;
+	background-color: #FFF;
+	border-radius: 10px;
+}
+
+body{
+	font-family: 'Maven Pro', sans-serif;
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+}
+
+button{
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
